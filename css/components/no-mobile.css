@@ -1,0 +1,39 @@
+#no-mobile {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--lightbeige);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+#no-mobile img {
+  height: 100vh;
+  position: absolute;
+  left: 0;
+}
+
+#no-mobile h3,
+#no-mobile h4 {
+  position: absolute;
+  left: 45%;
+  font-size: 34px;
+}
+#no-mobile h3 {
+  font-family: "Titan One", cursive;
+  font-size: 28px;
+  top: 40%;
+}
+
+#no-mobile h4 {
+  font-family: "Jua", sans-serif;
+  top: 60%;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}

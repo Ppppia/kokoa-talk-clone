@@ -1,0 +1,25 @@
+.badge {
+  background-color: var(--lightbeige);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--kokoa);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.chat-badge {
+  background-color: var(--kokoa);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--lightbeige);
+  font-weight: 600;
+  font-size: 12px;
+}

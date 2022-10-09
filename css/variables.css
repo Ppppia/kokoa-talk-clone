@@ -1,0 +1,8 @@
+:root {
+  --lightbeige: rgb(255, 252, 242);
+  --kokoa: rgb(96, 76, 76);
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --grey: rgb(162, 152, 152);
+  --lightkokoa: rgba(96, 76, 76, 0.7);
+}
