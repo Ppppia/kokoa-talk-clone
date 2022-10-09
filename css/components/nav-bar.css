@@ -71,7 +71,7 @@
     transfrom: none;
   }
   50% {
-    transform: translateY(-5px) rotateY(360deg);
+    transform: translateY(-3px);
   }
   100% {
     transform: none;
@@ -79,7 +79,7 @@
 }
 
 .nav__alert {
-  background-color: var(--lightbeige);
+  background-color: gold;
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -88,8 +88,8 @@
   align-items: center;
   font-weight: 600;
   position: absolute;
-  left: 35px;
-  bottom: 25px;
+  left: 32px;
+  bottom: 28px;
   animation: alertAnimation 1.2s ease-in-out infinite;
 }
 
