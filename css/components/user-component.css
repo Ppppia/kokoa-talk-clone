@@ -43,7 +43,7 @@
 }
 
 .user-component__column:last-child {
-  color: var(--lightkokoa);
+  color: var(--kokoa);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
