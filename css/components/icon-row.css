@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   margin: 20px 0;
+  font-size: 14px;
 }
 
 .icon-row-first,
@@ -21,8 +22,5 @@
 
 .icon-row__icon i {
   font-size: 30px;
-}
-
-.icon-row__icon span {
-  margin-top: 5px;
+  margin-bottom: 10px;
 }

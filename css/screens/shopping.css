@@ -1,3 +1,96 @@
+.icons,
+.icons__icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+.icons__icon {
+  flex-direction: column;
+}
+
+.icons__icon i {
+  margin-bottom: 10px;
+}
+
+.ads img {
+  width: 100%;
+  margin: 20px 0;
+}
+.ads {
+  position: relative;
+}
+
+.ads_info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.ads__marks {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  font-size: 10px;
+}
+
+.ads__marks i,
+.ads__marks span {
+  margin-right: 5px;
+}
+
+.shopping-channel__header {
+  border-top: 8px solid rgba(96, 76, 76, 0.1);
+  border-radius: 10px;
+}
+
+.user-shopping,
+.shopping-channel__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.shopping-channel__header {
+  padding-top: 30px;
+}
+
+.shopping-channel_title {
+  font-size: 20px;
+}
+
+.shopping-channel__description {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.shopping-channel__price {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.shopping-channel__list,
+.shopping-channel__deal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shopping-channel__deal {
+  flex-direction: column;
+}
+
+.shopping-channel__deal img {
+  width: 220px;
+}
+
 .recommended-friends {
   margin: 25px 0px;
   padding: 25px 0px;
